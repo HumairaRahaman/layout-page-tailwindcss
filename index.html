@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/style.css">
+    <title>Tailwind Layout</title>
+</head>
+<body>
+    <header class="fixed inset-0 flex items-center justify-between h-16 px-3 bg-gray-800 md:bg-gradient-to-r from-lightblue to-cyan">
+  
+            <img class=" md:h-6 lg:h-10" src="public/image/logo1.png" alt="logo">
+            <nav class="flex items-center h-16 text-white ">
+                <svg class="w-6 h-8 px-3 py-1 border rounded-sm md:hidden " xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                  <div class="hidden space-x-4 text-sm text-base text-white md:inline-flex lg:inline-flex lg:space-x-8 font-primary">
+                      <a href="#">Home</a>
+                      <a href="#">Features</a>
+                      <a href="#">Screenshots</a>
+                      <a href="#">Testimonial</a>
+                      <a href="#">Plans</a>
+                      <a href="#">Download</a>
+                      <a href="#">Contact</a>
+                  </div>
+            </nav>
+
+        
+    </header>
+    <section class="pt-16 bg-gradient-to-r from-lightblue to-cyan">
+        <div class="max-w-lg px-4 mx-auto lg:items-center lg:flex pt-9 md:max-w-xl lg:max-w-4xl">
+            <div class="pb-32 lg:pt-16">
+            <h1 class="text-xl font-bold leading-relaxed text-white lg:text-4xl font-primary xs:text-2xl">Get Your App Landing Page <br> With Proton Template</h1>
+            <p class="pt-6 font-sans text-sm leading-loose text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem mollitia commodi ab quaerat deleniti tenetur est molestias minus, optio vel tempora, at quisquam aliquid sed! Quam dolorem atque fugiat ipsam!</p>
+            <a href="#" class="inline-block px-8 py-3 mt-5 text-sm font-semibold tracking-wide text-blue-400 bg-white rounded-full font-primary">DOWNLOAD NOW</a>
+            <a href="#" class="inline-block px-8 py-3 mt-5 ml-5 text-sm font-semibold tracking-wide text-white uppercase border-2 rounded-full font-primary">get started</a>
+        </div>
+            <img src="public/image/intro-mobile.png" alt="mobile" class="flex-shrink-0 lg:h-64">
+        </div>
+    </section>
+
+
+
+    <section class="min-h-screen bg-gray-50">
+        <div class="py-16 text-center ">
+            <h2 class="inline-block px-8 py-2 text-sm font-bold tracking-wide uppercase bg-blue-100 rounded-full font-primary">Features</h2>
+            <h3 class="mt-4 text-xl font-bold text-transparent bg-gradient-to-b from-cyan to-blue-500 bg-clip-text font-primary">Amazing Features</h3>
+        </div>
+        <div class="gap-4 px-3 lg:grid lg:grid-cols-3 ">
+            <div>
+                <div class="flex mt-6 mr-4 space-x-4 ">
+                    <div>
+                        <h4 class="text-2xl font-bold font-primary">User Friendly</h4>
+                        <p class="pt-3 text-sm leading-loose text-gray-500 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, neque accusamus a  Quia, neque accusamus a </p>
+                    </div>
+                    <div class="flex-shrink-0 w-16 h-16 mt-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan">
+
+                    </div>
+                </div>
+                <div class="flex mt-6 mr-4 space-x-4 ">
+                    <div>
+                        <h4 class="text-2xl font-bold font-primary">Super Fast Speed</h4>
+                        <p class="pt-3 text-sm leading-loose text-gray-500 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, neque accusamus a  Quia, neque accusamus a </p>
+                    </div>
+                    <div class="flex-shrink-0 w-16 h-16 mt-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan">
+
+                    </div>
+                </div>
+                <div class="flex mt-6 mr-4 space-x-4 ">
+                    <div>
+                        <h4 class="text-2xl font-bold font-primary">24/7 Support</h4>
+                        <p class="pt-3 text-sm leading-loose text-gray-500 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, neque accusamus a  Quia, neque accusamus a </p>
+                    </div>
+                    <div class="flex-shrink-0 w-16 h-16 mt-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan">
+
+                    </div>
+                </div>
+            </div>
+            <img src="public/image/app.png" alt="pic" class="my-8 "> 
+            <div class="">
+                <div class="flex flex-row-reverse mt-6 ml-4 mr-4 space-x-4 space-x-reverse ">
+                    <div>
+                        <h4 class="text-2xl font-bold font-primary">Secure</h4>
+                        <p class="pt-3 text-sm leading-loose text-gray-500 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, neque accusamus a  Quia, neque accusamus a </p>
+                    </div>
+                    <div class="flex-shrink-0 w-16 h-16 mt-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan">
+
+                    </div>
+                </div>
+                <div class="flex flex-row-reverse mt-6 ml-4 mr-4 space-x-4 space-x-reverse ">
+                    <div>
+                        <h4 class="text-2xl font-bold font-primary">Awesome Rating</h4>
+                        <p class="pt-3 text-sm leading-loose text-gray-500 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, neque accusamus a  Quia, neque accusamus a </p>
+                    </div>
+                    <div class="flex-shrink-0 w-16 h-16 mt-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan">
+
+                    </div>
+                </div>
+                <div class="flex flex-row-reverse mt-6 ml-4 mr-4 space-x-4 space-x-reverse ">
+                    <div>
+                        <h4 class="text-2xl font-bold font-primary">Award Winning</h4>
+                        <p class="pt-3 text-sm leading-loose text-gray-500 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, neque accusamus a  Quia, neque accusamus a </p>
+                    </div>
+                    <div class="flex-shrink-0 w-16 h-16 mt-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
